@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/deepc/static/css/main.e3c36b46.css",
+    "main.js": "/deepc/static/js/main.9e360717.js",
+    "static/media/logo.svg": "/deepc/static/media/logo.510ddf2934ac35fc7e76df31209b8863.svg",
+    "index.html": "/deepc/index.html",
+    "static/media/to_right_arrow.svg": "/deepc/static/media/to_right_arrow.f2fa1ddfe1c1eb41a00e07cc3c7917c9.svg",
+    "main.e3c36b46.css.map": "/deepc/static/css/main.e3c36b46.css.map",
+    "main.9e360717.js.map": "/deepc/static/js/main.9e360717.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3c36b46.css",
+    "static/js/main.9e360717.js"
+  ]
+}
