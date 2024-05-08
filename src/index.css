@@ -1,13 +1,106 @@
+a {
+  text-decoration: none !important;
+}
+ul li a {
+  text-decoration: none !important;
+}
+:root {
+  --background: #0a0d1a;
+  --neutral-100: white;
+  --neutral-800: #060d2d;
+  --neutral-700: #3a405f;
+  --primary-1: #7545ff;
+  --neutral-600: #636883;
+  --secondary-2: #807cf8;
+  --secondary-3: #0c0099;
+  --secondary-4: #040033;
+  --neutral-500: #b6b8c8;
+  --neutral-400: #dadae3;
+  --neutral-300: #efeff5;
+  --neutral-200: #fafafc;
+  --secondary-1: #d6d8ff;
+  --elements-webflow-library-general--shadow-04: rgba(20, 20, 43, 0.14);
+  --rms: #1f3b76;
+  --untitled-ui-orange700: #b93815;
+  --alley-component-library-orange--900: #f69351;
+  --alley-component-library-gray--900: #131316;
+  --untitled-ui-primary600: #7f56d9;
+  --untitled-ui-white: white;
+  --untitled-ui-primary700: #6941c6;
+  --untitled-ui-primary100: #f4ebff;
+  --untitled-ui-gray300: #d0d5dd;
+  --untitled-ui-gray700: #344054;
+  --untitled-ui-gray50: #f9fafb;
+  --untitled-ui-gray800: #1d2939;
+  --untitled-ui-gray100: #f2f4f7;
+  --untitled-ui-gray900: #101828;
+  --untitled-ui-primary50-501: #f9f5ff;
+  --elements-webflow-library-secondary--color-1: #281ca5;
+  --flowui-component-library-gray-500: #6b7094;
+  --flowui-component-library-grey-300: #e4e6f1;
+  --untitled-ui-gray600: #475467;
+  --elements-webflow-library-neutral--800: #211f54;
+  --elements-webflow-library-neutral--600: #6e7191;
+  --elements-webflow-library-neutral--100: white;
+  --elements-webflow-library-neutral--400: #dcddeb;
+  --elements-webflow-library-accent--primary-1: #4a3aff;
+  --elements-webflow-library-neutral--200: #f7f7fc;
+  --untitled-ui-primary800: #53389e;
+  --untitled-ui-gray500: #667085;
+  --untitled-ui-gray200: #eaecf0;
+  --bt: #5514b4;
+  --accessible-components-dark-grey: #9b9b9b;
+  --elements-webflow-library-neutral--300: #eff0f6;
+  --elements-webflow-library-general--shadow-02: rgba(20, 20, 43, 0.08);
+  --untitled-ui-success700: #027a48;
+  --elements-webflow-library-general--shadow-01: rgba(20, 20, 43, 0.06);
+  --untitled-ui-gray400: #98a2b3;
+  --untitled-ui-primary300: #d6bbfb;
+  --untitled-ui--warning300: #fec84b;
+  --flowui-component-library-gray-900: #160042;
+  --flowui-component-library-white: white;
+  --flowui-component-library-gray-700: #282556;
+  --flowui-component-library-gray-200: #f3f5fb;
+  --flowui-component-library--grey-600: #393b6a;
+  --flowui-component-library-primary-base: #642eff;
+  --flowui-component-library--gray-100: #f7f9fd;
+  --untitled-ui-primary500: #9e77ed;
+  --alley-component-library-blue--900: #5167f6;
+  --alley-component-library-blue--800: #6478f7;
+  --alley-component-library-blue--700: #7788f8;
+  --alley-component-library-neutral--off-white: #f4f4f6;
+  --flowui-component-library-gray-800: #1b114a;
+  --flowui-component-library-primary-dark: #2d0896;
+  --alley-component-library-gray--800: #26272c;
+  --alley-component-library-gray--100: #b2b3bd;
+  --alley-component-library-neutral--black: black;
+  --elements-webflow-library-secondary--color-2: #f2f1ff;
+  --untitled-ui-success50: #ecfdf3;
+  --untitled-ui-pink50: #fdf2fa;
+  --untitled-ui-pink700: #c11574;
+  --untitled-ui-indigo50: #eef4ff;
+  --untitled-ui-indigo700: #3538cd;
+  --elements-webflow-library-general--shadow-03: rgba(20, 20, 43, 0.1);
+  --untitled-ui-warning500: #f79009;
+  --untitled-ui-orange50: #fef6ee;
+  --untitled-ui-indigo500: #6172f3;
+  --untitled-ui-success500: #12b76a;
+  --untitled-ui-pink500: #ee46bc;
+  --untitled-ui-blue500: #2e90fa;
+  --untitled-ui-blue50-501: #eff8ff;
+  --untitled-ui-blue700: #175cd3;
+  --memberstack-library--ms-input-placeholder: rgba(18, 19, 49, 0.6);
+  --memberstack-library--ms-main-cta-hover: #1051b9;
+  --memberstack-library--ms-main-cta-color: #2962ff;
+  --memberstack-library--ms-border-color: rgba(18, 19, 49, 0.25);
+  --memberstack-library--ms-main-text-color: #121331;
+  --memberstack-library--ms-shadow-color: rgba(0, 0, 0, 0.1);
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  background-color: var(--background) !important;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
 }

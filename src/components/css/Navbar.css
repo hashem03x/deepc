@@ -1,0 +1,163 @@
+nav {
+  background-color: var(--neutral-800);
+  position: relative;
+  height: 54px;
+}
+
+.header-logo {
+  mix-blend-mode: normal;
+  max-width: 90px;
+  margin-top: 4px;
+  position: relative;
+  bottom: 3px;
+}
+
+nav .nav-link {
+  color: var(--neutral-200) !important;
+  font-size: 0.85rem;
+  line-height: 1.5em;
+}
+nav .nav-link:hover {
+  border-bottom-color: var(--neutral-800);
+  opacity: 0.8;
+}
+nav .navbar-nav {
+  margin-left: 12px;
+}
+
+nav .nav-item.dropdown {
+  position: static !important;
+}
+
+nav .dropdown-menu {
+  border-top: 0.5px solid var(--neutral-700);
+  border-bottom: 0.5px solid var(--neutral-700);
+  background-color: var(--neutral-800);
+  margin-top: 53px;
+  padding-top: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+  width: 100vw;
+  height: fit-content;
+}
+nav .dropdown-menu .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+}
+nav .dropdown-menu .container a {
+  opacity: 1;
+  justify-content: flex-start;
+  max-width: 310px;
+  margin-bottom: 0;
+  padding: 8px;
+  transition: opacity 0.18s;
+  display: flex;
+  background-color: transparent;
+}
+nav .dropdown-menu .container a h5 {
+  color: var(--neutral-100);
+  margin-bottom: 0;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+nav .dropdown-menu .container a:hover {
+  opacity: 1;
+  background-color: rgba(214, 216, 255, 0.1);
+  border-radius: 8px;
+  margin-bottom: 0;
+}
+
+nav .dropdown-menu .container a .icon {
+  border-radius: 4.9rem;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  display: flex;
+}
+nav .dropdown-menu .container a .description {
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  color: var(--neutral-500);
+  font-size: 0.8rem;
+  line-height: 1.5em;
+}
+
+nav .dropdown-menu .container.divided {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+nav .dropdown-menu .container.divided .left {
+  border-right: 0.5px solid var(--neutral-600);
+  margin-right: 1.5rem;
+  padding-right: 1.5rem;
+}
+nav .dropdown-menu .container.divided .left .content-holder {
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+}
+nav .dropdown-menu .container.divided .left .content-holder a h5 {
+  letter-spacing: 0.075rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+}
+nav .dropdown-menu .container.divided h5 {
+  letter-spacing: 0.075rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  color: var(--neutral-100);
+}
+
+nav form button {
+  z-index: 100;
+  border: 1px solid var(--neutral-100) !important;
+  color: var(--neutral-100) !important;
+  background-color: transparent;
+  padding: 6px 16px;
+  font-size: 0.85rem;
+  font-weight: 300;
+  transition-property: none;
+  position: relative;
+}
+
+nav form button:first-of-type {
+  background-color: var(--elements-webflow-library-general--shadow-04);
+  opacity: 0.8;
+}
+nav form button:last-of-type {
+  background-color: var(--neutral-100) !important;
+  color: var(--secondary-4) !important;
+  margin-left: 24px !important;
+}
+nav form button:first-of-type:hover {
+  background-color: var(
+    --elements-webflow-library-general--shadow-04
+  ) !important;
+  opacity: 0.8 !important;
+}
